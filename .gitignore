@@ -1,0 +1,105 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Environment files (Secrets)
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.pid
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+.streamlit/.cache/
+.streamlit/logs/
+.streamlit/*.log
+
+# =========================
+# ChromaDB / Vector store
+# =========================
+chroma_store/
+*.sqlite3
+*.db
+*.bin
+*.parquet
+*.duckdb
+
+# =========================
+# Uploaded / Parsed files
+# =========================
+app/data/uploads/
+uploads/
+tmp/
+temp/
+*.tmp
+
+# Ignore extracted text outputs if you generate any
+*.txt
+
+# =========================
+# OS / Editors
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# =========================
+# Node (only if frontend later)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Coverage reports
+# =========================
+coverage.xml
+
